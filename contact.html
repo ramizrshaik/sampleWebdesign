@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Virtual Library</title>
+<meta name="description" content="website description" />
+<meta name="keywords" content="website keywords, website keywords" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- modernizr enables HTML5 elements and feature detects -->
+<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<header>
+			<div id="logo">
+				<div id="logo_text">
+					<!-- class="logo_colour", allows you to change the colour of the text -->
+					<h1>
+						<a href="homepage.html">VIRTUAL<span class="logo_colour">LIBRARY</span></a>
+					</h1>
+					<h2>Discover. Connect. Inspire</h2>
+				</div>
+			</div>
+			<nav>
+				<ul class="sf-menu" id="nav">
+					<li class="selected"><a href="homepage.html">Home</a></li>
+					<li><a href="registration.html">Apply for Library Card</a></li>
+					<li><a href="newcollection.html">Whats New?</a></li>
+
+						<li><a href="collection.html">Collections</a>
+						<ul>
+							<li><a href="collection.html">Online Articles</a></li>
+							<li><a href="collection.html">Digital collections</a>
+								<ul>
+									<li><a href="collection.html">e-Books</a></li>
+									<li><a href="collection.html">e-Journals</a></li>
+									<li><a href="collection.html">e-Magazines</a></li>
+									<li><a href="collection.html">e-News</a></li>
+
+								</ul></li>
+							<li><a href="collection.html">Databases</a></li>
+							<li><a href="collection.html">Speical Collections</a></li>
+							<li><a href="collection.html">Encyclopedias</a></li>
+						</ul></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="site_content">
+			<ul id="images">
+				<li><img src="images/l1.jpg" width="600" height="300"
+					alt="photo_one" /></li>
+				<li><img src="images/l2.png" width="600" height="300"
+					alt="photo_two" /></li>
+				<li><img src="images/l3.jpg" width="600" height="300"
+					alt="photo_three" /></li>
+				<li><img src="images/l4.png" width="600" height="300"
+					alt="photo_four" /></li>
+				<li><img src="images/l5.jpg" width="600" height="300"
+					alt="photo_five" /></li>
+				<li><img src="images/l6.jpg" width="600" height="300"
+					alt="photo_photo_dark" /></li>
+			</ul>
+			<div id="sidebar_container">
+				<div class="sidebar">
+					<h3>Latest News</h3>
+					<h4>New Website Launched</h4>
+					<h5>July 1st, 2016</h5>
+					<p>
+						2016 sees the redesign of our website. Take a look around and let
+						us know what you think.<br /> <a href="#">Read more</a>
+					</p>
+				</div>
+				<div class="sidebar">
+					<h3>Useful Links</h3>
+					<ul>
+						<li><a href="#"></a>Location and Hours</li>
+						<li><a href="#">Study Rooms</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Book Reservations</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div class="content_item">
+					<div class="form_settings">
+						<form action="register" method="post">
+							<h2>Contact Us</h2>
+							<h3>We are here to assist you</h3>
+							<p>
+								Call our Information Line (972) 002-8055 during Library
+								operating hours 0900-1800 hrs. Ask questions about your account or get answers
+								on any topic. Free feel ask any type of questions regarding the library You can also email us at <b><a
+									href="asklibrarian@virtuallibrary.com">asklibrarian@virtuallibrary.com</a></b>
+								.Please allow up to 72 hours for a response.
+							<p>Please fill out the following form and our library staff
+								will contact you</p>
+							<p>&nbsp;</p>
+							<p>
+								<span>Name</span><input class="contact" type="text"
+									name="your_name" value="" />
+							</p>
+							<p>
+								<span>Email Address</span><input class="contact" type="text"
+									name="your_email" value="" />
+							</p>
+							<p>
+								<span>Subject</span><input class="contact" type="text"
+									name="your_title" value="" />
+							</p>
+
+							<p>
+								<span>Message</span>
+								<textarea class="contact textarea" rows="8" cols="50"
+									name="your_message"></textarea>
+							</p>
+							<p style="padding: 10px 0 10px 0;">Please enter the answer to
+								this simple maths question (to prevent spam)</p>
+							<p>
+								<span>Maths Question: 8 + 4 = ?</span><input type="text"
+									name="user_answer" class="contact" />
+							</p>
+							<!--input type="hidden" name="answer" value="" /-->
+							<p style="padding-top: 15px">
+								<span>&nbsp;</span>
+								<input type="submit" name="submit">
+							</p>
+					</div>
+					<!--close form_settings-->
+				</div>
+				<!--close content_item-->
+			</div>
+		</div>
+		<footer>
+			<p>
+				Copyright &copy; Virtual Library | <a
+					href="http://www.virtuallibrary.com">Visit
+					virtuallibrary.com</a>
+			</p>
+		</footer>
+	</div>
+	<p>&nbsp;</p>
+	<!-- javascript at the bottom for fast page loading -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+	<script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+	<script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#images').kwicks({
+				max : 600,
+				spacing : 2
+			});
+			$('ul.sf-menu').sooperfish();
+		});
+	</script>
+</body>
+</html>

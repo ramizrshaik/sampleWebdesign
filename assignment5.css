@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+h2 {
+	color: orange;
+	font-family: Georgia;
+}
+
+legend {
+	color: #00ff00;
+	font: italic;
+}
+
+fieldset {
+	background-color: #807986;
+	background: transparent;
+	
+	
+}
+
+body {
+	background-image: url("images/reg1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+}
+
+table {
+	color: olive;
+	font-family: monospace;
+	}

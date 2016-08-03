@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Virtual Library</title>
+<meta name="description" content="website description" />
+<meta name="keywords" content="website keywords, website keywords" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- modernizr enables HTML5 elements and feature detects -->
+<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<header>
+			<div id="logo">
+				<div id="logo_text">
+					<!-- class="logo_colour", allows you to change the colour of the text -->
+					<h1>
+						<a href="homepage.html">VIRTUAL<span class="logo_colour">LIBRARY</span></a>
+					</h1>
+					<h2>Discover. Connect. Inspire</h2>
+				</div>
+			</div>
+			<nav>
+				<ul class="sf-menu" id="nav">
+					<li class="selected"><a href="homepage.html">Home</a></li>
+					<li><a href="registration.html">Apply for Library Card</a></li>
+					<li><a href="newcollection.html">Whats New?</a></li>
+					<li><a href="collection.html">Collections</a>
+						<ul>
+							<li><a href="collection.html">Online Articles</a></li>
+							<li><a href="collection.html">Digital collections</a>
+								<ul>
+									<li><a href="collection.html">e-Books</a></li>
+									<li><a href="collection.html">e-Journals</a></li>
+									<li><a href="collection.html">e-Magazines</a></li>
+									<li><a href="collection.html">e-News</a></li>
+
+								</ul></li>
+							<li><a href="collection.html">Databases</a></li>
+							<li><a href="collection.html">Speical Collections</a></li>
+							<li><a href="collection.html">Encyclopedias</a></li>
+						</ul></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="site_content">
+			<ul id="images">
+				<li><img src="images/library_card.png" width="600" height="300"
+					alt="photo_one" /></li>
+				<li><img src="images/librarycard.jpg" width="600" height="300"
+					alt="photo_two" /></li>
+				<li><img src="images/LibraryMain.jpg" width="600" height="300"
+					alt="photo_three" /></li>
+				<li><img src="images/reg1.jpg" width="600" height="300"
+					alt="photo_four" /></li>
+				<li><img src="images/lc1.jpg" width="600" height="300"
+					alt="photo_five" /></li>
+
+			</ul>
+			<div id="site_content">
+				<div class="sidebar_container">
+					<div class="sidebar">
+						<div class="sidebar_item">
+							
+							<h3>If we don’t have it, another library might!</h3>
+							<p>The Interlibrary Loan service allows libraries to borrow
+								materials that they do not own, such as books, microfilm and
+								photocopies of journal articles, from other libraries throughout
+								the country. Please keep in mind that many libraries do not loan
+								recently published, high-demand, rare, or fragile materials.</p>
+							<p>Please be sure you have first checked our library catalog
+								for the item you are seeking. Interlibrary Loan requests cannot
+								be made for items that we have in our catalog.</p>
+						</div>
+						<!--close sidebar_item-->
+					</div>
+					<br />
+					<!--close sidebar-->
+					<div class="sidebar">
+						<div class="sidebar_item">
+							
+							<h3>Reading Buddies</h3>
+							<p>If you are between the ages of 5-11, enhance your reading
+								confidence, fluency and comprehension by reading aloud with a
+								library volunteer during a 30-minute 1-on-1 session. Audience:
+								School Age (5-11), Preteen (10-11)</p>
+						</div>
+						<!--close sidebar_item-->
+					</div>
+					<!--close sidebar-->
+
+
+				</div>
+				<!--close sidebar_container-->
+
+				<div id="content">
+					<div class="content_item">
+						<div class="form_settings">
+							<h1>
+								A whole new virtual world is waiting for you.<br />Apply for your
+								library card today to get access to Virtual Library.
+							</h1>
+							<p>If you are already an existing customer or you lost your
+								library card please dont fill this form. Contact your librarian.
+							</p>
+
+							<p>Can't wait for a card to be mailed? Apply in person at
+								your nearest library and get your card immediately. Be sure to
+								bring a photo ID with your current address.</p>
+							<h2>Registration Page</h2>
+							<div align="center">
+								<fieldset style="width: 500px">
+
+									<legend align="center">Apply for a New Library Card</legend>
+									<form action="register" method="POST">
+
+										<table align="left">
+											<tr>
+												<td>First Name</td>
+												<td><input type="text" name="firstName"
+													required="required" /></td>
+											</tr>
+											<tr>
+												<td>Middle Name</td>
+												<td><input type="text" name="middleNname" /></td>
+											</tr>
+											<tr>
+												<td>Last Name</td>
+												<td><input type="text" name="lastName"
+													required="required" /></td>
+											</tr>
+
+											<tr>
+												<td>Student Classification</td>
+												<td><input type="checkbox" name="qualification"
+													value="graduate" /> Graduate <br> <input
+													type="checkbox" name="qualification" value="underGraduate" />
+													Under Graduate</td>
+											</tr>
+											<br />
+											<tr>
+												<td>Gender</td>
+												<td><input type="radio" name="gender" value="male" />
+													Male <input type="radio" name="gender" value="Femlae" />
+													Female </td>
+											</tr>
+
+											<tr>
+
+												<td>Marital Status</td>
+												<td><select name="status" size="4">
+														<option value="single" selected="selected">Single</option>
+														<option value="married">Married</option>
+														<option value="divorced">Divorced</option>
+														<option value="widowed">Widowed</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td><strong> Enter Address </strong></td>
+											</tr>
+											<tr>
+												<td>Street</td>
+												<td><input type="text" name="street" /></td>
+											</tr>
+											<tr>
+												<td>City</td>
+												<td><input type="text" name="city" /></td>
+											</tr>
+											<tr>
+												<td>State</td>
+												<td><select name="State">
+														<option value="denton">Denton</option>
+														<option value="lewisville">Lewisville</option>
+														<option value="flowemound">Flowe Mound</option>
+												</select></td>
+											</tr>
+											<tr>
+												<td>Country</td>
+												<td><select name="country">
+														<option label="USA" value="US" />
+														<option label="UK" value="UK" />
+												</select></td>
+											</tr>
+											<tr>
+												<td>Zip code</td>
+												<td><input type="text" name="zipCode" /></td>
+											</tr>
+											<tr>
+												<td>Email ID:</td>
+												<td><input type="email" name="email"
+													required="required" /></td>
+											</tr>
+										</table>
+										<p align="center">
+											<input type="submit" name="register">
+										</p>
+									</form>
+								</fieldset>
+							</div>
+							<h3>Replace a Lost or Stolen Card</h3>
+							<p>Card holders are responsible for all items on a card, all
+								use made of the card and all charges made against it until it is
+								reported lost or stolen. If your card is lost or stolen, inform
+								the library immediately.</p>
+							<h3>Manage Your Account Online</h3>
+							<p>Once you have registered for a card, you will be able to
+								manage many of your account details online. Some changes, such
+								as an update to your mailing address or date of birth, must be
+								made in person.</p>
+						</div>
+						<!--close content_item-->
+					</div>
+					<!--close content-->
+					<!--close content-->
+					<!--/div><!--close site_content-->
+
+				</div>
+				</div>
+				<!--close main-->
+</div>
+				<div id="footer_container">
+					<div id="footer">
+						<p>Ask librarian | asklibrarian@virtuallibrary.com</p>
+						<p>
+						Copyright &copy; Virtual Library | <a
+					href="http://www.virtuallibrary.com">Visit
+					virtuallibrary.com</a> </p>
+
+					</div>
+					<!--close footer-->
+				</div>
+				</div>
+				<!--close footer_container-->
+				<p>&nbsp;</p>
+				<!-- javascript at the bottom for fast page loading -->
+				<script type="text/javascript" src="js/jquery.js"></script>
+				<script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+				<script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+				<script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+				<script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Virtual Library</title>
+<meta name="description" content="website description" />
+<meta name="keywords" content="website keywords, website keywords" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- modernizr enables HTML5 elements and feature detects -->
+<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<header>
+			<div id="logo">
+				<div id="logo_text">
+					<!-- class="logo_colour", allows you to change the colour of the text -->
+					<h1>
+						<a href="homepage.html">VIRTUAL<span class="logo_colour">LIBRARY</span></a>
+					</h1>
+					<h2>Discover. Connect. Inspire</h2>
+				</div>
+			</div>
+			<nav>
+				<ul class="sf-menu" id="nav">
+					<li class="selected"><a href="homepage.html">Home</a></li>
+					<li><a href="registration.html">Apply for Library Card</a></li>
+					<li><a href="newcollection.html">Whats New?</a></li>
+
+						<li><a href="collection.html">Collections</a>
+						<ul>
+							<li><a href="collection.html">Online Articles</a></li>
+							<li><a href="collection.html">Digital collections</a>
+								<ul>
+									<li><a href="collection.html">e-Books</a></li>
+									<li><a href="collection.html">e-Journals</a></li>
+									<li><a href="collection.html">e-Magazines</a></li>
+									<li><a href="collection.html">e-News</a></li>
+
+								</ul></li>
+							<li><a href="collection.html">Databases</a></li>
+							<li><a href="collection.html">Speical Collections</a></li>
+							<li><a href="collection.html">Encyclopedias</a></li>
+						</ul></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="site_content">
+			<ul id="images">
+				<li><img src="images/p1.jpg" width="600" height="300"
+					alt="photo_one" /></li>
+				<li><img src="images/b1.jpg" width="600" height="300"
+					alt="photo_two" /></li>
+				<li><img src="images/b2.jpg" width="600" height="300"
+					alt="photo_three" /></li>
+				<li><img src="images/b3.jpg" width="600" height="300"
+					alt="photo_four" /></li>
+				<li><img src="images/b4.jpg" width="600" height="300"
+					alt="photo_five" /></li>
+				<li><img src="images/p2.jpg" width="600" height="300"
+					alt="photo_photo_dark" /></li>
+			</ul>
+			<div id="sidebar_container">
+				<div class="sidebar">
+					<h3>Latest News</h3>
+					<h4>New Website Launched</h4>
+					<h5>July 1st, 2016</h5>
+					<p>
+						2016 sees the redesign of our website. Take a look around and let
+						us know what you think.<br /> <a href="#">Read more</a>
+					</p>
+				</div>
+				<div class="sidebar">
+					<h3>Useful Links</h3>
+					<ul>
+						<li><a href="#"></a>Location and Hours</li>
+						<li><a href="#">Study Rooms</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Book Reservations</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<h1>Welcome to the Virtual Library</h1>
+				<p>Virtual Library is a great medium for gaining and sharing
+					knowledge. Technology is evolving consistantly. Now a days hand
+					gadgets are playing crucial role in the human life. It almost
+					replaced the computer in terms of carrying convinience and
+					processing power.</p>
+				<p>A person can browse the whats happening arround him with a
+					simple touch in their smart phones. Libraries are working hard to
+					bring the information into the hands of their patrons. Mobile
+					optimization of websites became in the designing part.</p>
+				<p>
+					This virtual library provides loads of information in digital form.
+					It contains discrete forms information collections such as e-books,
+					online magazines, podcasts, social groups, online discusson forms,
+					and enews papers. You can access all the information once you get <strong>library
+						e-card </strong> from the site. So, whats stopping you? register to get
+					library account and access all the knowledge with a simple click.
+				</p>
+			</div>
+		</div>
+		<footer>
+			<p>
+				Copyright &copy; Virtual Library | <a
+					href="http://www.virtuallibrary.com">Visit
+					virtuallibrary.com</a>
+			</p>
+		</footer>
+	</div>
+	<p>&nbsp;</p>
+	<!-- javascript at the bottom for fast page loading -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+	<script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+	<script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#images').kwicks({
+				max : 600,
+				spacing : 2
+			});
+			$('ul.sf-menu').sooperfish();
+		});
+	</script>
+</body>
+</html>
